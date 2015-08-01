@@ -213,7 +213,7 @@
             <li>Finally we need to add 2 more classes to our <code>#home</code>, add the classes of <code>active</code> & <code>in</code> to display our first tab and content with in.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <a href="answers/lesson5.php" target="_blank" class="text-danger">Check out how our new file turned out!</a>
+          <a href="answers/lesson5.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about Bootstrap <a href="http://getbootstrap.com/javascript/#tabs" target="_blank">Tabs</a> here to get more indepth with tabs.</p>
           <div class="next1">

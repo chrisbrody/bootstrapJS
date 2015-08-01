@@ -23,6 +23,13 @@ a {
 a:hover {
 	color: rgb(37, 40, 43);
 }
+/*add muted color to p & ol tags*/
+h2 + p,
+h3 + p,
+.well + p,
+.task ol{
+	color: #777;
+}
 .center {
 	text-align: center;
 }
@@ -39,6 +46,7 @@ a:hover {
 	position: ;
 	width:75%;
 }
+/*sidebar*/
 #sidebar {
 	background-color: rgb(46, 50, 54);
 	padding-top:10px;

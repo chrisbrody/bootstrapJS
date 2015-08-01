@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="c">&lt;!-- Removing modal animation --&gt;</span>
 <br>
 <span class="nt">&lt;div</span>

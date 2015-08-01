@@ -440,7 +440,7 @@
             <li>Finally lets add the popover content, give our button two more data attributes the 1st is title have this equal <code>Dismissible popover</code> and our data-content attribute again with some more dummy text i.e. "And here's some amazing content. It's very engaging."</li>
           </ol>
           <p>Open this file in our browser to see our work!</p>
-          <a href="answers/lesson7.php" target="_blank" class="text-danger">Check out how our file looks!</a>
+          <a href="answers/lesson7.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about <a href="http://getbootstrap.com/javascript/#popovers" target="_blank">Bootstrap Popovers</a></p>
           <div class="next1">

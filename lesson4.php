@@ -221,14 +221,14 @@
 
     </div>
 
-    <!-- lesson task #-->
+    <!-- task 4 -->
     <div class="task">
       <div class="task1">
         <div class="col-md-12">
           <h3>Scroll Spy is Amazing, A lot of Internet's most used sites utilize scroll spy </h3>
           <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
           <ol>
-            <li>Lets start our scroll spy by creating a <code>nav</code> tag & then a <code>div</code> tag below all of our other tags, attach a class of <code>navbar navbar-default</code> to our nav tag & an id of <code>scrollspy_example</code> as well.</li>
+            <li>Lets start your scroll spy by creating a <code>nav</code> tag &amp; then a <code>div</code> tag below all of our other tags, attach the classes of <code>navbar</code>,  <code>navbar-default</code> to the nav tag and an id of <code>scrollspy_example</code> as well</li>
             <li>To our div below we want to match up the ID we gave our nav to our <code>data-target</code> of this div. i.e. <code>data-target="scrollspy_example"</code>, we also want to set our data-spy attribute to <code>scroll</code> for this div.</li>
             <li>Inside our nav tag lets create a new <code>ul</code> and give it the class of <code>nav navbar-nav</code>. Inside add 4 new <code>li</code> tags with <code>a</code> tags inside each one.</li>
             <li>Lets add our target content, move inside our div, and add 4 <code>h4</code> tags, the first give and id of <code>zero</code> and text between our tags of "zero"</li>
@@ -241,7 +241,7 @@
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
           <br>
-          <a href="answers/lesson4.php" target="_blank" class="text-danger">Check out how our new file turned out</a>
+          <a href="answers/lesson4.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about <a href="http://getbootstrap.com/javascript/#scrollspy" target="_blank">Bootstrap Scroll Spy!</a></p>
           <div class="next1">

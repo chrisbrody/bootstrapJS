@@ -1,4 +1,4 @@
-<br>
+<!-- <br> -->
 <span class="c">&lt;!-- Button trigger modal --&gt;</span>
 <br>
 <span class="nt">&lt;button</span>

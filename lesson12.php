@@ -239,7 +239,7 @@
             <li>Time for a few properties and we will have some nice affix'n going on. First set the <code>top</code> to 0, our <code>width</code> to 100%, otherwise some funky stuff happens to it. Next set the <code>padding</code> to 0%, the <code>z-index</code> to 1 and our <code>transition</code> property to 0.5s all ease-in-out.</li>
           </ol>
           <p>Save &amp; Open in our browser to see our excellent creation!</p>
-          <a href="answers/lesson12.php" target="_blank" class="text-danger">Check out how our new looks</a>
+          <a href="answers/lesson12.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about <a href="http://getbootstrap.com/javascript/#affix" target="_blank">Bootstrap Affix'n Elements!</a></p>
           <p class="lead">Well Done! You have arrived at the end with a great knowledge of the bootstrap docs. As always we can check out the full documentation @ <a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a> &amp; don't be afraid to Google bootstrap stuff, a lot of stuff out there!</p>

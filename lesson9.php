@@ -232,7 +232,7 @@
             <li>To our last label lets add the class of <code>btn btn-primary</code> and set our input a type of <code>radio</code> and some text after our input i.e. "Blueberries". Phew! Got through that, lets check it out!</li>
           </ol>
           <p>Open this file in our browser to see our new buttons!</p>
-          <a href="answers/lesson9.php" target="_blank" class="text-danger">This is how our new file came out</a>
+          <a href="answers/lesson9.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Check out <a href="http://getbootstrap.com/javascript/#buttons" target="_blank">More on Bootstrap Buttons Here!</a></p>
           <div class="next1">

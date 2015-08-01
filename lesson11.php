@@ -339,7 +339,7 @@
             <li>On the next line lets call the interval property and set it to 1500, this number is written in milliseconds, <code>interval: 1500,</code> follow this with a comma so we can add another property on the next line add the pause property and set the string value to hover <code>pause: "hover"</code>.</li>
           </ol>
           <p>Save our file and open it in our browser to see our work!</p>
-          <a href="answers/lesson11.php" target="_blank" class="text-danger">Check out how our file looks</a>
+          <a href="answers/lesson11.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>More on <a href="http://getbootstrap.com/javascript/#carousel" target="_blank">Twitter Bootstrap's Carousel</a></p>
           <div class="next1">

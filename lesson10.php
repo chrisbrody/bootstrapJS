@@ -314,7 +314,7 @@
             <li>To our 3rd panel-collapse div give it a id, i.e. "collapseSix" and link our 3rd anchor tag to this div i.e. <code>href="collapseSix"</code>.  Made It!! Making two sweet collapse groups along the way.</li>
           </ol>
           <p>Open this file in our browser to see what we just did!</p>
-          <a href="answers/lesson10.php" target="_blank" class="text-danger">This is how our file came out</a>
+          <a href="answers/lesson10.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Find out more about <a href="http://getbootstrap.com/javascript/#collapse" target="_blank">Bootstrap Collapse Groups Here!</a></p>
           <div class="next1">

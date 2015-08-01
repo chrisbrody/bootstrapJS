@@ -347,7 +347,7 @@
             <li>Lastly, lets try out one more data-attribute - the delay attribute, try setting the delay-attribute of our button to <code>500</code> this will display and hide our tooltip on a 500ms timeframe!</li>
           </ol>
           <p>Save it & Open this file in our browser to see our new tooltips!</p>
-          <a href="answers/lesson6.php" target="_blank" class="text-danger">Check out how our file turned out!</a>
+          <a href="answers/lesson6.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about <a href="http://getbootstrap.com/javascript/#tooltips" target="_blank">Bootstrap Tooltips</a> here.</p>
           <div class="next1">

@@ -183,7 +183,7 @@
             </code>
           </div>
           <p>Open this file in our browser to see what we just did!</p>
-          <a href="answers/lesson8.php" target="_blank" class="text-danger">Check out how our file turned out</a>
+          <a href="answers/lesson8.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Woohoo Alerts are super awesome good job getting through that task!</p>
           <p>More about <a href="http://getbootstrap.com/javascript/#alerts" target="_blank">Bootstrap Alerts Here!</a></p>
