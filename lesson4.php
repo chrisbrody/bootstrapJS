@@ -84,11 +84,11 @@
         <h2 id="scrollspy-usage">Usage</h2>
         <h3>Requires relative positioning</h3>
         <p>
-        No matter the implementation method, scrollspy requires the use of
-        <code>position: relative;</code>
-        on the element you're spying on. In most cases this is the
-        <code>&lt;body&gt;</code>
-        .
+          No matter the implementation method, scrollspy requires the use of
+          <code>position: relative;</code>
+          on the element you're spying on. In most cases this is the
+          <code>&lt;body&gt;</code> 
+          tag.
         </p>
         <h3>Via data attributes</h3>
         <p>
@@ -112,17 +112,7 @@
             <?php include('code/lesson4/body_scroll.php') ?>
           </code>
         </div>
-        <h3>Via JavaScript</h3>
-        <p>
-        After adding
-        <code>position: relative;</code>
-        in your CSS, call the scrollspy via JavaScript:
-        </p>
-        <div class="well well-sm">
-          <code>
-            <?php include('code/lesson4/scroll_js.php') ?>
-          </code>
-        </div>
+        
         <div class="panel panel-danger">
           <div class="panel-heading">
             <h4>Resolvable ID targets required</h4>
@@ -131,7 +121,7 @@
             <p>
               Navbar links must have resolvable id targets. For example, a
               <code>&lt;a href="#home"&gt;home&lt;/a&gt;</code>
-              must correspond to something in the DOM like
+              must correspond to something in the HTML like
               <code>&lt;div id="home"&gt;&lt;/div&gt;</code>
               .
             </p>
@@ -226,20 +216,20 @@
       <div class="task1">
         <div class="col-md-12">
           <h3>Scroll Spy is Amazing, A lot of Internet's most used sites utilize scroll spy </h3>
-          <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
+          <p class="lead">Open your index.html file from your BootstrapJS folder.</p>
           <ol>
-            <li>Lets start your scroll spy by creating a <code>nav</code> tag &amp; then a <code>div</code> tag below all of our other tags, attach the classes of <code>navbar</code>,  <code>navbar-default</code> to the nav tag and an id of <code>scrollspy_example</code> as well</li>
-            <li>To our div below we want to match up the ID we gave our nav to our <code>data-target</code> of this div. i.e. <code>data-target="scrollspy_example"</code>, we also want to set our data-spy attribute to <code>scroll</code> for this div.</li>
-            <li>Inside our nav tag lets create a new <code>ul</code> and give it the class of <code>nav navbar-nav</code>. Inside add 4 new <code>li</code> tags with <code>a</code> tags inside each one.</li>
-            <li>Lets add our target content, move inside our div, and add 4 <code>h4</code> tags, the first give and id of <code>zero</code> and text between our tags of "zero"</li>
-            <li>For our 2nd <code>h4</code> add text "one" & an id of <code>One</code>, To our 3rd add some text "two" and give it an id of <code>two</code>.  You guessed it, lets give a id of <code>three</code> and text of three to our last <code>h4</code>.</li>
-            <li>Lets add a few paragraphs of simulated content under each <code>h4</code>.  Under our 1st add 2 new paragraph tags and fill them with a few lines of <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a>.</li>
-            <li>Under our 2nd <code>h4</code> lets add 3 new paragraph tags.  Again fill them with a few lines of <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a>. Do the same for below the 3rd & 4th <code>h4</code> add 4 <code>p</code> tags below our 3rd h4, and 2 below our last <code>h4</code> tag.</li>
-            <li>Finally we can create the links in our nav that will scroll based on where we our in our content. Add a class of active to our 1st <code>li</code> and set our <code>a href=""</code> to the ids we created below. i.e. <code>&lt;a href="#zero"&gt;</code>, make sure to include the "#" since we are calling an ID here.</li>
-            <li>Lets add a little style to our scrollspy div, we need to set a height since we don't have an large amount of content, First add a class to our div i.e. "scroll_content" and in our css sheet lets give it a few styles, <code>height: 175px; overflow-x: hidden; overflow-y: scroll;</code>.</li>
-            <li>Lastly add a little extra margin to our <code>h4</code> tags, set our h4 to have a margin of <code>2%</code> for the top & bottom and 0 for the left & right.</li>
+            <li>To start your scroll spy, create a <code>nav</code> tag &amp; <code>div</code> tag below the nav, and below all of our other tags. Add the classes of <code>navbar</code> &amp; <code>navbar-default</code> and an id of <code>scrollspy_example</code> to the nav tag</li>
+            <li>On the div below, we want to match up the ID we just gave the nav, using the <code>data-target</code> attribute. e.x. <code>data-target="scrollspy_example"</code>, also set the data-spy attribute to <code>scroll</code> for this div</li>
+            <li>Now inside the nav tag create a <code>ul</code> tag and give it the classes of <code>nav</code> &amp; <code>navbar-nav</code>. Inside add 4 <code>li</code> tags with <code>a</code> tags inside each one</li>
+            <li>Lets add some target content, inside the div, add 4 <code>h4</code> tags, the first give and id of <code>zero</code> and some content between the tags e.x. "zero"</li>
+            <li>For the 2nd <code>h4</code> add content "one" and an id of <code>One</code>, To the 3rd, add some content e.x. "two", and give it an id of <code>two</code>.  You guessed it, lets give a id of <code>three</code> and content of  "three" to the last h4</li>
+            <li>Next add a 2 <code>p</code> tags under the 1st <code>h4</code>.  Fill them with a few lines of <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a></li>
+            <li>Under the 2nd h4 tag, add 3 <code>p</code> tags.  Again fill them with a few lines of <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a>. Do the same for below the 3rd and 4th h4 tag, add 4 <code>p</code> tags below the 3rd h4, and 2 <code>p</code> below the last h4 tag</li>
+            <li>Finally connect the links in the nav to track based on where the user is in your content. To do this, add a class of active to the 1st <code>li</code> and set our <code>a href=""</code> to the ids we created below. e.x. <code>&lt;a href="#zero"&gt;</code>, make sure to include the "#" since we are calling an ID</li>
+            <li>Add a little style to our scrollspy div, set a height since we don't have an large amount of content, First add a class to our div e.x. <code>scroll_content</code> and in our css sheet lets give it a few styles, <code>height: 175px;</code>, <code>overflow-x: hidden;</code> &amp; <code>overflow-y: scroll;</code></li>
+            <li>Last add extra margin to the h4 tags, set the h4 to have a margin of <code>2%</code> for the top &amp; bottom and 0 for the left &amp; right</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>
+          <p>Open this file in your browser to see what we just did!</p>
           <br>
           <a href="answers/lesson4.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>

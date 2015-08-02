@@ -315,9 +315,9 @@
             <li>Now we must link the dropdown using the <code>data-target</code> attribute on tthe button  - this takes effect on XS screens. To do this, we the collapse div an ID, e.x. "collapsed_nav", and correspond it to the data-target e.x. <code>data-target=".collapsed_nav"</code></li>
             <li>Lets make one more dropdown, start with a <code>div</code> tag with a class of <code>container</code>, add a <code>div</code> tag inside with a class of <code>row</code>.  Inside add another <code>div</code> with a class of <code>col-md-6</code> Add one more div inside here with a class of <code>dropdown</code></li>
             <li>As we did before lets add a <code>button</code> &amp; <code>ul</code> inside your dropdown div.  Add the classes <code>btn</code>, <code>btn-primary</code> &amp; <code>btn-block</code> to the button and add a data-toggle attribute of <code>dropdown</code>. Add content to the button e.x. "Dropdown Button", and on the next line add a <code>span</code> with a class of <code>caret</code></li>
-            <li>Give your <code>ul</code> a class of <code>dropdown-menu</code>.  Add a few <code>li</code> tags with <code>a</code> tags inside each li. Name each anchor between our open and closing <code>a</code> tags i.e. "Action", "Link 1"</li>
+            <li>Give your <code>ul</code> a class of <code>dropdown-menu</code>.  Add a few <code>li</code> tags with <code>a</code> tags inside each li. Name each anchor between the open and closing <code>a</code> tags i.e. "Action", "Link 1"</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>
+          <p>Open this file in your browser to see what we just did!</p>
           <a href="answers/lesson3.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about <a href="http://getbootstrap.com/javascript/#dropdowns" target="_blank">Bootstrap Dropdowns Here!</a></p>

@@ -203,16 +203,16 @@
       <div class="task1">
         <div class="col-md-12">
           <h3>Tabs are a great way to display tons of info w.o wasting a ton of space</h3>
-          <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
+          <p class="lead">Open your index.html file from your BootstrapJS folder.</p>
           <ol>
-            <li>To begin lets create a new <code>container</code> div below everything - Inside lets add two new tags a <code>ul</code> & a <code>div</code>. To our ul add a class of <code>nav nav-tabs</code>, & a class of <code>tab-content</code> to our div.</li>
-            <li>Inside our <code>ul</code> lets add a few links to link to our tab content, add 4 new <code>li</code> tags with a <code>a</code> tag inside each li tag. Give each anchor a data-toggle attribute equal to <code>"tab"</code>, set our 1st <code>li</code> to have a class of <code>active</code>.</li>
-            <li>Moving into our div add 4 new <code>div</code> tags and give each a class of <code>tab-pane fade</code>.  In each div add a <code>p</code> tag, fill these tags using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a>.</li>
-            <li>We need to add id attributes to each div so we can link to them in our ul above.  Set our 1st div id to "home", our 2nd div id to "profile", the 3rd div id to "contact" & our last to "business".</li>
-            <li>Now to connect these we set our <code>a href="#"</code> in our ul above. Our first should match our first div id i.e. <code>&lt;a href="#home" data-toggle"tab"&gt;</code>, add text between our anchor tags i.e. "Home" to name our link, do the same for the remaining 3 links setting our 2nd to <code>#profile</code>, our 3rd to <code>#contact</code> and our 4th should match our "#business" div.</li>
-            <li>Finally we need to add 2 more classes to our <code>#home</code>, add the classes of <code>active</code> & <code>in</code> to display our first tab and content with in.</li>
+            <li>Create a <code>div</code> tag, and give it a class of <code>container</code> or <code>container-fluid</code> below everything - Inside lets add a <code>ul</code> tags &amp; a <code>div</code> tag below. To the ul add the classes of <code>nav</code> &amp; <code>nav-tabs</code>, and a class of <code>tab-content</code> to the div tag</li>
+            <li>Inside the <code>ul</code> we need to add a few links to link to your tab content, add 4 <code>li</code> tags with a <code>a</code> tag inside each. Give each anchor a data-toggle attribute equal to <code>"tab"</code> and set the 1st <code>li</code> tag to have a class of <code>active</code></li>
+            <li>Moving into the div, and add 4 more <code>div</code> tags, give each the classes of <code>tab-pane</code> &amp; <code>fade</code>.  In each new div add a <code>p</code> tag, fill these tags using <a href="http://www.lipsum.com/" target="_blank">Lorem Ipsum</a></li>
+            <li>Add an id attributes to each div so we can link to them to the ul above.  Set the 1st div id equal to <code>home</code>, the 2nd div id equal to <code>profile</code>, the 3rd div id to <code>contact</code> and the last div id to <code>business</code></li>
+            <li>Now to connect these we set the <code>a href="#"</code> in the ul above. The first should match the first div id e.x. <code>&lt;a href="#home" data-toggle"tab"&gt;</code>, add content to the 1st anchor tag e.x. "Home", do the same for the remaining 3 links setting the 2nd to <code>#profile</code>, the 3rd to <code>#contact</code>, the 4th should match the "#business" div, and updating the content between the a tags</li>
+            <li>Finally we need to add 2 more classes to the <code>#home</code> div, add the classes of <code>active</code> &amp; <code>in</code> to display the first tab and content with in when the page loads</li>
           </ol>
-          <p>Open this file in our browser to see what we just did!</p>
+          <p>Open this file in your browser to see what we just did!</p>
           <a href="answers/lesson5.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Learn more about Bootstrap <a href="http://getbootstrap.com/javascript/#tabs" target="_blank">Tabs</a> here to get more indepth with tabs.</p>
