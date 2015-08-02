@@ -92,10 +92,10 @@ if(window.location.href.indexOf("answers") > -1) {
    $('img').css({'width':'100%', 'padding-bottom':'25px'});
 }
 
-$('.tooltips').tooltip('hide');
+$("[data-toggle='tooltip']").tooltip();
 
 // popovers
-$('.pop_active').popover("hide");
+// $("[data-toggle='popover']").popover();
 
 
 $('.revealer').on('click', function(){
