@@ -1,4 +1,12 @@
 <div class="tab-pane" id="tab6">
+  <!-- loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div> 
   <article class="lesson6">
 
     <div class="lesson_title">

@@ -40,8 +40,22 @@ $(document).ready(function(){
 	// close sidebar on click of nav or overview anchors
 	$('nav a, .course_overview_lessons a').click(function() {
 		if ($("#sidebar").hasClass("open")) {
+			
 			closeSidebar();
-		} 
+		} else if ($("#sidebar").hasClass("closed")) {
+			$('body').removeClass('loaded');
+			setTimeout(function(){
+	      $('body').addClass('loaded');
+	    }, 1000); 
+		}
+	});
+	$('.btn-code').click(function() {
+		if ($("#sidebar").hasClass("closed")) {
+			$('body').removeClass('loaded');
+			setTimeout(function(){
+	      $('body').addClass('loaded');
+	    }, 1500); 
+		}
 	});
 
 });

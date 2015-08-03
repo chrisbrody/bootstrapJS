@@ -1,4 +1,12 @@
 <div class="tab-pane" id="tab9">
+  <!-- loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div> 
   <article class="lesson9">
 
     <div class="lesson_title">
@@ -128,7 +136,7 @@
       </div>
 
       <!-- Usage -->
-      <div class="col-md-12">
+      <!-- <div class="col-md-12">
         <h3>
           Usage
         </h3>
@@ -141,7 +149,7 @@
           </code>     
         </div>
       </div>
-
+ -->
       <!-- Markup -->
       <!-- <div class="col-md-12">
         <h3>

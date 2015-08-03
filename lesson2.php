@@ -1,5 +1,13 @@
 <div class="tab-pane" id="tab2">
-<?php include('modals.php') ?>
+  <!-- loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div> 
+  <?php include('modals.php') ?>
   <article class="lesson2">
 
     <div class="lesson_title">

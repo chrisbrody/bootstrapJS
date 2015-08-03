@@ -1,5 +1,13 @@
 <!-- Lesson 1 - Getting Stared With Bootstrap -->
 <div class="tab-pane" id="tab1">
+  <!-- loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div> 
   <article class="lesson1">
 
 		<div class="lesson_title">
