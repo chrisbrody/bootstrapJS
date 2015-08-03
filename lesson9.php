@@ -210,28 +210,18 @@
       <div class="task1">
         <div class="col-md-12">
           <h3>Sweet, multiple states of buttons, very fun. Lets dive right into our <code>CODE</code>.</h3>
-          <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
+          <p class="lead">Open your index.html file from your BootstrapJS folder.</p>
           <ol>
-            <li>Strat below everything we have done before with a div and give it a class of <code>container</code>, with 2 <code>row</code> divs inside of it.</li>
-            <li>Inside our first row lets add 2 divs, the first with a class of <code>col-sm-12 col-md-6</code>, the second div should get a class of <code>col-sm-12 col-md-4</code>.</li>
-            <li>In our 2nd row lets again add two more divs, the 1st with a class of <code>col-sm-6 col-md-6</code> & the 2nd with a class of <code>col-sm-6 col-md-8</code>.</li>
-            <li>Lets get inside our first column div lets make a button that displays info on click, but 1st add a <code>h3</code>, <code>button</code> & <code>div</code> with a <code>p</code> tag inside.  Insert some text into our h3 i.e. "Some Sweet info is hidden below, check it out".</li>
-            <li>Add some classes to out button <code>btn btn-info</code>, set the data-toggle attribute to <code>button</code> and add some text between our button tags "Hidden info".</li>
-            <li>Give our div with a p tag inside a class of <code>hidden</code> to hide our content, and fill our <code>p</code> tag with some dummy text from <a href="http://www.lipsum.com/" target="_blank">Lorem Lipsum</a>.</li>
-            <li>Lets write a litel script to make our info display when a user clicks our button inside our main.js, lets start by first finding a arbitrary class "btn_reveal", we will add to our button in a minute. <code>$(".btn_reveal")</code>.</li>
-            <li>Next we want a on click function to find our hidden div and remove the class to reveal the content! <code>.on('click', function(){});</code>. Inside our click function lets start with "this" <code>$(this)</code>.</li>
-            <li>We need to get the closest div to this and this find our hidden div. <code>.closest('div').find('.hidden')</code>. Finally we can use jQuery removeClass to get rid of our hidden class and reveal our conent. <code>.removeClass('hidden')</code>.</li>
-            <li>Last we need to add the class of <code>btn_reveal</code> to our button inside our <code>col-sm-12 col-md-6</code> div, and now it will work!</li>
-            <li>Moving on to our <code>col-md-4</code> div lets make a checkbox group that can have all items selected at once. Start with a <code>h3</code> tag inside our div with some text i.e. "Things You Enjoy".</li>
-            <li>Next add a div below our h3 with a class of <code>btn-group</code> set our data-toggle to equal <code>button</code> to give the impression our buttons are clicked!, add 3 <code>labels</code> inside our btn-group div, with a <code>input</code> inside each.</li>
-            <li>To our 1st label give it a class of <code>btn btn-primary active</code>, for our 2nd label give a class of <code>btn btn-primary</code> and our third label a class of <code>btn btn-primary</code>.</li>
-            <li>Give our inputs a type of <code>checkbox</code> and add some text after each input i.e. "Beaches", "Mountains", "Cities", and check it out our selectable btn-group!</li>
-            <li>On to our 2nd row lets go inside our <code>col-md-6</code> div and make a radio btn-group so we can only choose 1 option at a time, First add a <code>h3</code> tag with some text i.e. "Favorite Fruit".</li>
-            <li>Again we need to create a <code>btn-group</code> div, with 3 <code>labels</code> inside, all with 1 <code>input</code> inside.  Also add a data-toggle attribute of <code>button</code> to our btn-group.</li>
-            <li>For our 1st label add the classes of <code>btn btn-danger active</code> and give our input a type equal to <code>radio</code> and some text after our input i.e. "Apples", to our 2nd label add the classes of <code>btn btn-warning active</code> and give our input a type equal to <code>radio</code> and again text after our input i.e. "Oranges".</li>
-            <li>To our last label lets add the class of <code>btn btn-primary</code> and set our input a type of <code>radio</code> and some text after our input i.e. "Blueberries". Phew! Got through that, lets check it out!</li>
+            <li>Strat below everything we have done before with a <code>div</code> and give it a class of <code>container</code> or <code>container-fluid</code>, with a <code>div</code> tags inside, with a class of <code>row</code></li>
+            <li>Inside the row div, add 2 <code>div</code> tags, the 1st with the classes <code>col-sm-12</code> &amp; <code>col-md-4</code>.  To the 2nd div, add the classes <code>col-sm-6</code> &amp; <code>col-md-8</code></li>
+            <li>In the col-md-4 div, lets make a checkbox group that can have all items selected at once. Start with a <code>h3</code> tag with some content e.x. "Things You Enjoy".  Next add a <code>div</code> tag below the h3 tag with a class of <code>btn-group</code>, and set the data-toggle to equal <code>button</code> to give the impression the buttons are clicked! Add 3 <code>label</code> tags inside the btn-group div, with one <code>input</code> tag inside each label</li>
+            <li>To the 1st label add the class of <code>btn</code>, <code>btn-primary</code> &amp; <code>active</code>, for the 2nd label add the classes <code>btn</code> &amp; <code>btn-primary</code>, to the third label add the class <code>btn</code> &amp; <code>btn-primary</code></li>
+            <li>Give each input tag a type attribute eqqual to <code>checkbox</code> and add some content after each e.x. "Beaches", "Mountains", "Cities", and check it out you made a selectable btn-group!</li>
+            <li>On to the 2nd div that has a class of col-md-8, add a <code>h3</code> tag with some content e.x. "Favorite Fruit".  Again we need to create a <code>div</code> tag with a class of <code>btn-group</code>, add  3 <code>label</code> tags inside, all with 1 <code>input</code> tag.  Also add a data-toggle attribute of <code>button</code> to the btn-group div</li>
+            <li>For the 1st label add the classes <code>btn</code>, <code>btn-danger</code> &amp; <code>active</code>, and some content after the input tag e.x. "Apples", to the 2nd label add the classes <code>btn</code> &amp; <code>btn-warning</code> and a type attribute equal to <code>radio</code> and again some content after the the tag e.x. "Oranges"</li>
+            <li>To the last label again, add some classes <code>btn</code> &amp; <code>btn-primary</code> and set the type attribute to <code>radio</code> and some content after the tag e.x. "Blueberries". Phew! Got through that, lets check it out!</li>
           </ol>
-          <p>Open this file in our browser to see our new buttons!</p>
+          <p>Open this file in your browser to see your new button groups!</p>
           <a href="answers/lesson9.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Check out <a href="http://getbootstrap.com/javascript/#buttons" target="_blank">More on Bootstrap Buttons Here!</a></p>

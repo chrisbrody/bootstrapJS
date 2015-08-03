@@ -93,7 +93,7 @@
       </div>
 
       <!-- Via JavaScript -->
-      <div class="col-md-12">
+      <!-- <div class="col-md-12">
         <h3>
           Via JavaScript
         </h3>
@@ -106,7 +106,7 @@
           </code>     
         </div>
       </div>
-
+ -->
       <!-- Options -->
       <!-- <div class="col-md-12">
         <h3>

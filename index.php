@@ -6,7 +6,7 @@
 
         <!-- Side bar Course Content -->
     
-        <div id="sidebar" class="open">
+        <div id="sidebar" class="closed">
           <a onclick="adjustSidebar()" data-toggle="tooltip" data-placement="right" title="Toggle Navigation">
             <i class="fa fa-bars"></i>
           </a>

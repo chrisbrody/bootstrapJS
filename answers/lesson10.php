@@ -24,7 +24,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
           <div class="panel-group" id="accordion1">
             <div class="panel panel-primary">
               <div class="panel-heading">
@@ -70,7 +70,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-8">
+        <!-- <div class="col-sm-6 col-md-8">
             <div class="panel-group" id="accordion2">
                 <div class="panel panel-danger">
                     <div class="panel-heading">
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
       </div>
     </div>
     

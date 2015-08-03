@@ -169,7 +169,7 @@
       </div>
 
       <!-- Via Javascript -->
-      <div class="col-md-12">
+      <!-- <div class="col-md-12">
         <h3>
           Via Javascript
         </h3>
@@ -182,7 +182,7 @@
           </code>     
         </div>
       </div>
-
+ -->
       <!-- Options -->
       <!-- <div class="col-md-12">
         <h3>
@@ -315,30 +315,25 @@
       <div class="task1">
         <div class="col-md-12">
           <h3>Bootstrap Carousels require little code and are super easy to make!</h3>
-          <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
+          <p class="lead">Open your index.html file from your BootstrapJS folder.</p>
           <ol>
-            <li>Begin below everything we have done so far and start with a 3 new divs, with the class of <code>container</code> for the 1st, <code>row</code> for the 2nd & <code>col-md-8 col-md-offset-2</code> for the 3rd.</li>
-            <li>Inside our col-md-8, we need a div for our carousel, give it the classes <code>carousel slide</code>. Add 2 tags inside a <code>ol</code> with a class of <code>carousel-indicators</code> and <code>div</code> with a class of <code>carousel-inner</code>.</li>
-            <li>Our ordered list will serve as a way to scroll through this carousel.  Add 3 <code>li</code> inside, give a data-slide-to attribute to each li <code>data-slide-to="0"</code>, <code>data-slide-to="1"</code>, <code>data-slide-to="2"</code> as well as a class of active for our 1st li.</li>
-            <li>We need to add a arbitrary id to our carousel div to link our li tags to. add one i.e. "myCarousel1", then give a data-target attribute to our li tags equal to this id. <code>data-target="#myCarousel1"</code>.</li>
-            <li>Good so we have our buttons to switch slides, lets go into our carousel-inner div, and add 3 new divs which will serve as our slide divs, give each a class of <code>item</code>, and the first item div an additional class of <code>active</code>.</li>
-            <li>In each item div lets add a <code>img</code> tag and a <code>div</code> below our image with a class of <code>carousel-caption</code>. Add a <code>h3</code>, <code>p</code> & <code>a</code> inside each carousel-caption div.</li>
-            <li>For our images make sure we are using the same resolution size for each, otherwise our carousel will auto resize when switching slides. If you need an image <a href="http://albums.mouseplanet.com/guideicons/BCG103.jpg">Use This One</a>.</li>
-            <li>Add some dummy text to our carousel-caption tags, insert text to our 1st h3 tag i.e. "Example Headline", our 2nd h3 tag add some text i.e. "Another Example Headline", & our 3rd h3 tag some more text "One more for good measure." </li>
-            <li>Give our <code>p</code> tags some <a href="http://www.lipsum.com/" target="_blank">Lorem Lipsum</a> text, just a few lines not to many or our carousel will look weird. Finally lets add a few classes to our <code>a</code> tags <code>btn btn-lg btn-primary</code> and some text between each anchor "Learn More", "Browse More".</li>
-            <li>Excellent! one nice carousel with indicator controls, lets create one more with chevrons for directional controls.  Start a new div with a class of <code>container-fluid</code>, add a div inside with a class of <code>carousel slide</code>, lets also set the data-ride attribute to carousel <code>data-ride="carousel"</code>, this will start our carousel when our site loads.</li>
-            <li>Lets add a new div inside here with a class of <code>carousel-inner</code>. Add 5 new divs inside here that will house our images for this slider, add the class of <code>item</code> to each one, as well as <code>active</code> to our 1st item div.</li>
-            <li>Add some images to our img tags, again making sure they are the same resolution so our slider does not resize on its own.</li>
-            <li>Finally we need our carousel controls, add 2 <code>a</code> tags just below our carousel-inner div. Give our 1st the classes of <code>left carousel-control</code>, and our 2nd the classes of <code>right carousel-control</code>.</li>
-            <li>Next set the data-slide attributes to each anchor, the first set to prev and the second to next. <code>data-slide="prev"</code>, <code>data-slide="next"</code>. Create a <code>span</code> tag inside each anchor.</li>
-            <li>Add a few glyph classes to get our chevron controls, our first needs the classes of <code>glyphicon glyphicon-chevron-left</code> & our second the classes of <code>glyphicon glyphicon-chevron-right</code> </li>
-            <li>Last but not least we need to add a arbitrary id to our carousel div so we can link our a href's to this.  Set the id first i.e "myCarousel2' and the anchor href's equal to the same id <code>href="#myCarousel2"</code>.</li>
-            <li>Sometimes our carousel images don't fit the full width of the carousel div, to fix this we can add a css selector and set our width to 100%; call the first carousels images using the .carousel-inner and img selectors <code>.carousel-inner img{}</code> and give this the css property: width of 100%.</li>
-            <li>If you used our carousel image we need to change the height so its not stretched out, call the id and img selector first <code>#mycarousel1 img{}</code> and add the height property of 300px.</li>
-            <li>One last thing, lets modify our 2nd carousel so the slides change ever 1.5s and will stop when we hover.  It's easier then you'd think, in our main.js file start by calling the 2nd carousel id and calling the carousel event <code>$("#myCarousel2").carousel({});</code>.</li>
-            <li>On the next line lets call the interval property and set it to 1500, this number is written in milliseconds, <code>interval: 1500,</code> follow this with a comma so we can add another property on the next line add the pause property and set the string value to hover <code>pause: "hover"</code>.</li>
+            <li>Begin below everything we have done so far and add 3 new <code>div</code> tags each inside the next, the 1st with the class of <code>container</code> or <code>container-fluid</code> for the 1st, <code>row</code> for the 2nd and <code>col-md-8 col-md-offset-2</code> for the 3rd</li>
+            <li>Inside the col-md-8 div, add a <code>div</code> for carousel, give it the classes <code>carousel</code> &amp; <code>slide</code>. Add 2 sibling tags inside an <code>ol</code> tag with a class of <code>carousel-indicators</code> and a <code>div</code> tag with a class of <code>carousel-inner</code></li>
+            <li>The ordered list will serve as a way to track what image the user is on. Add 3 <code>li</code> tags inside here, with a data-slide-to attribute to each li - the 1st  gets <code>data-slide-to="0"</code>, the 2nd gets <code>data-slide-to="1"</code> &amp; the 3rd gets <code>data-slide-to="2"</code>. Also add a class of <code>active</code> to the 1st li tag</li>
+            <li>We need to add a arbitrary id pn the carousel div so we can link to the li tags. Add the id e.x. "myCarousel1", then give a data-target attribute to the 3 li tags equal to this id. e.x. <code>data-target="#myCarousel1"</code></li>
+            <li>Good so we have a way to track what slide we're on, go into the carousel-inner div, and add 3 <code>div</code> tags, which will serve as the individual slide divs, each gets a class of <code>item</code>, and the first item div add an additional class of <code>active</code></li>
+            <li>In each item div add 2 sibling tags, an <code>img</code> &amp; <code>div</code>. Add a class of <code>carousel-caption</code> to the new div. Add a <code>h3</code>, <code>p</code> &amp; <code>a</code> inside each carousel-caption div</li>
+            <li>For the images make sure we are using the same resolution size for each, otherwise the carousel will auto resize when switching slides. If you need an image <a href="http://albums.mouseplanet.com/guideicons/BCG103.jpg">Use This One</a></li>
+            <li>Add some dummy text to the carousel-caption divs, e.x. 1st "Example Headline.", 2nd e.x. "Another Example Headline.", 3rd e.x. "One more for good measure."</li>
+            <li>Give the <code>p</code> tags some <a href="http://www.lipsum.com/" target="_blank">Lorem Lipsum</a> text, just a few lines not to many or our carousel will start to look weird. Finally add a few classes to the <code>a</code> tags <code>btn</code>, <code>btn-lg</code> &amp; <code>btn-primary</code> with some content between each anchor e.x. "Learn More", "Browse More"</li>
+            <li>Excellent! one nice carousel with slide indicator. <span class="text-primary">We can also add carousel controls to a carousel,</span> to do this, add 2 <code>a</code> tags just below the carousel-inner div. Give the 1st the classes of <code>left</code> &amp; <code>carousel-control</code>, and the 2nd the classes of <code>right</code> &amp; <code>carousel-control</code></li>
+            <li>Next set the data-slide attributes on each anchor, the first set to <code>prev</code> and the second to <code>next</code> e.x. <code>data-slide="prev"</code>, <code>data-slide="next"</code></li>
+            <li> Create a <code>span</code> tag inside each anchor tag.  Just need a few glyphicon classes to get the chevron controls, add the classes of <code>glyphicon</code> &amp; <code>glyphicon-chevron-left</code> to the 1st span and to the second add the classes <code>glyphicon</code> &amp; <code>glyphicon-chevron-right</code></li>
+            <li>Last but not least we need to add the arbitrary id we created eariler, to the anchors.  Set the href on both anchor tags i.e "myCarousel1'</li>
+            <li><span class="text-primary">One Last Bit of Info</span> Sometimes carousel images don't fit the full width of the carousel div, to fix this set the image width to 100%;</li>
+            <li>Finally: If you used our carousel image you need to change the height so its not stretched out, call the id and img selector in main.css e.x. <code>#mycarousel1 img{}</code> and add the height property of 300px</li>
           </ol>
-          <p>Save our file and open it in our browser to see our work!</p>
+          <p>Save your file and open it in your browser to see your work!</p>
           <a href="answers/lesson11.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>More on <a href="http://getbootstrap.com/javascript/#carousel" target="_blank">Twitter Bootstrap's Carousel</a></p>

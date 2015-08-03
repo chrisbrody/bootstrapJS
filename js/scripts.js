@@ -44,36 +44,35 @@ $(document).ready(function(){
 		} 
 	});
 
-	// Tooltips
-	$('[data-toggle="tooltip"]').tooltip()
 });
 
 
 function closeSidebar() {
-	if ( $(window).width() >= 1025 && $(window).width() <= 1200 ) {
-		$("#sidebar > a").animate({'left':'.75%'}, 500);
-		$('#main_content').animate({ 'width':'96.5%' }, 500);
-		$('#sidebar').animate({'width':'3.5%'}, 500);
+	if ( $(window).width() >= 1025 && $(window).width() <= 1320 ) {
+		$("#sidebar > a").animate({'left':'.75%'}, 300);
+		$('#main_content').animate({ 'width':'96.5%' }, 300);
+		$('#sidebar').animate({'width':'3.5%'}, 300);
 	} else if( $(window).width() >= 1025 ) {
-		$("#sidebar > a").animate({'left':'1%'}, 500);
-		$('#main_content').animate({ 'width':'96.5%' }, 500);
-		$('#sidebar').animate({'width':'3.5%'}, 500);
+		$("#sidebar > a").animate({'left':'1%'}, 300);
+		$('#main_content').animate({ 'width':'96.5%' }, 300);
+		$('#sidebar').animate({'width':'3.5%'}, 300);
 	} else if ( $(window).width() <= 1024 ) {
-		$("#sidebar > a").animate({'left':'1.2%'}, 500);
-		$('#main_content').animate({ 'width':'95%' }, 500);
-		$('#sidebar').animate({'width':'5%'}, 500);
+		$("#sidebar > a").animate({'left':'1.2%'}, 300);
+		$('#main_content').animate({ 'width':'95%' }, 300);
+		$('#sidebar').animate({'width':'5%'}, 300);
 	}
-		$('#sidebar').removeClass('open').addClass('closed');
-		$('.primary_logo').fadeOut();
-		$('.course_materials').fadeOut();
+	$('#sidebar').removeClass('open').addClass('closed');
+	$('.primary_logo').fadeOut();
+	$('.course_materials').fadeOut();
 }
 function openSidebar() {
-	$('#main_content').animate({ 'width':'75%' }, 500);
-	$('#sidebar').addClass('open').removeClass('closed').animate({'width':'25%'}, 500);
+	
+	$('#sidebar').addClass('open').removeClass('closed').animate({'width':'25%'}, 300);
+	$('#main_content').animate({ 'width':'75%' }, 300);
 	if( $(window).width() >= 1025 ) {		
-		$("#sidebar > a").animate({'left':'21%'}, 500);
+		$("#sidebar > a").animate({'left':'21%'}, 300);
 	} else if( $(window).width() <= 1024 ) {
-		$("#sidebar > a").animate({'left':'20%'}, 500);
+		$("#sidebar > a").animate({'left':'20%'}, 300);
 	}
 	$('.primary_logo').fadeIn();
 	$('.course_materials').fadeIn();
@@ -92,10 +91,12 @@ if(window.location.href.indexOf("answers") > -1) {
    $('img').css({'width':'100%', 'padding-bottom':'25px'});
 }
 
+
+// Tooltips
 $("[data-toggle='tooltip']").tooltip();
 
 // popovers
-// $("[data-toggle='popover']").popover();
+$("[data-toggle='popover']").popover();
 
 
 $('.revealer').on('click', function(){

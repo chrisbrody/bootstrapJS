@@ -146,43 +146,39 @@
       <div class="task1">
         <div class="col-md-12">
           <h3>Alerts are one of the coolest Bootstrap Javascript plugins, lets create a few alerts that we can activate from buttons as well as alerts that are always visible!</h3>
-          <p class="lead">Open your index.html file from our BootstrapJS folder.</p>
+          <p class="lead">Open your index.html file from your BootstrapJS folder.</p>
           <ol>
-            <li>Lets begin be creating a new div below are other code-snip-its and give it a class of <code>container</code>, inside make another div with a class of <code>row</code>. </li>
-            <li>Next we need some grid column divs inside our <code>row</code>, 3 in total, give our 1st div a class of <code>col-sm-4 col-md-6 col-md-offset-3</code>, our 1st div a class of <code>col-sm-4 col-md-8</code> & our 3rd div a class of <code>col-sm-4 col-md-12</code>. </li>
-            <li>Now we can give our new divs some tags, our first should get a <code>h1</code>, <code>p</code>, <code>button</code> & a <code>div</code> tag. Fill out our <code>h1</code> and <code>p</code> tags with some dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a>.</li>
-            <li>Our second div should get a <code>h2</code>, <code>p</code>, <code>button</code> & a <code>div</code> tag. We should also fill out our <code>h2</code> & <code>p</code> tags with more dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a>.</li> 
-            <li>And our the third div needs a <code>h3</code>, <code>p</code>, <code>button</code> & 3 <code>div</code> tags. Again We should need dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a> for our <code>h2</code> & <code>p</code> tags.</li>
-            <li>Great we have the basic structure now we can add a few bootstrap classes to bring this to life! Inside our <code>col-md-6</code> div lets give our button a class of <code>btn btn-success btn-block</code> name our button between our button tags i.e. "Alert Button".</li>
-            <li>To our 1st div inside our col-md-6 attach a class of <code>alert</code>, <code>alert-success</code> & <code>fade</code>.  In our <code>alert</code> div lets add a <code>button</code> that we will dismiss our alert when clicked and some text below our button that will be our alert message i.e. "&lt;strong&gt;Success! &lt;/strong&gt; Best check yo self, before your better then the rest!".</li>
-            <li>For our new button give a class of <code>close</code> and set the data-dismiss attribute to <code>alert</code>.</li>
-            <li>Inside the button add 2 <code>span</code> tags, to our first span add a <code>& times ;</code> between the opening and closing tags. This makes our closing X<br><span class="text-primary">We <strong>MUST</strong> remove the space between the <code>"&"</code> and <code>"t"</code> as well as between the <code>"s"</code> and <code>";"</code> to make the X properly appear.</span></li>
-            <li>To the second span add a class of <code>sr-only</code> and between the open and close tags add the text "Close". If we wanted this alert to work when we load our page we only need to add the class of <code>in</code> to the div with a class of <code>alert alert-success fade</code>.  For now leave it off we will make our button above display it in a minute.</li>
-            <li>Lets move into our <code>col-md-8</code> div and give our button the classes <code>btn btn-warning btn-lg</code> and some text between the tags "Click Here to Alert Us".</li>
-            <li>The div below our button needs some alert classes to make it wokr as an alert so add the classes <code>alert alert-warning fade</code> to the div and insert some text for our alert inside our div i.e. "&lt;strong&gt;Oh Snap It's a Warning&lt;/strong&gt; The end of the era is among us, or so they say, they are probably wrong anyway."</li>
-            <li>Finally into our last div <code>col-md-12</code>, lets give our button a few bootstrap classes <code>btn btn-danger btn-sm</code> and add some text between our button tags i.e. "DONT CLICK THIS".  For the div below our button give this a few alert classes <code>alert alert-danger fade</code>.</li>
-            <li>Inside our alert div lets add some text i.e "&lt;strong&gt;DANGER!&lt;/strong&gt; Watch our back, everyone is out to get you, get protection asap before it's to late." and a line break below our text <code>&lt;br&gt;</code>, add 2 <code>a</code> tags below our line break.</li>
-            <li>Add a few class to our anchors, our first the classes <code>btn btn-primary</code> and some text between our tags i.e "Action 1", & for our second the classes of <code>btn btn-danger</code> and some text between our tags i.e "Action 2"</li>
-            <li>Nicely Done, lets make one more alert and then a little jQuery to display our alerts when we click the nearest button! start with a <code>clearfix</code> div below our <code>col-md-12</code> and a div below this clearfix.</li>
-            <li>Give this div a few alert classes like we did before <code>alert alert-success fade</code> but this time we want this one always displayed so we need to give this div one more class of <code>in</code>. Last we need some alert message inside our alert div i.e. "Check out this sweet alert, its really important!".</li>
-            <li>OK, we have our alerts done but 3 still don't show up so lets make a quick jQuery script to fix this! In our main.js lets start by calling the <code>alert_button</code> class, this is a completely arbitrary class name we will attach to our buttons right above our hidden alerts, to reveal them on click. <code>$(".alert_button")</code>.</li>
-            <li>Follow this buy jQuery on "click" function so we can next find our closest alert div and display it, instead of just displaying all 3 alerts at once. <code>.on('click', function(){});</code>.</li>
-            <li>Now inside our function lets us <code>$(this)</code> to get our closest div to our .alert_button, <code>$(this).closest('div')</code>. So we have the closet div when we click a button with a class of <code>alert_button</code>. We now need to find are alert divs inside our new "div" DOM object. <code>.find('.alert')</code>.</li>
-            <li>Finally lets add the class that will display our alert using the sweet addClass() jQuery property! <code>.addClass('in');</code>, Excellent, Now we just need to add a few classes to the buttons we want this code snipit to be applied to, so back in our index.html add a class of <code>alert_button</code> to the 3 buttons inside our columns that are right below our <code>p</code> tags.</li>
-          </ol>
-          <a href="#" type="button" class="revealer">Check the full jQuery script</a>
-          <div class="hidden reveal_answer">
+            <li>Begin be creating a <code>div</code> tag below every div and give it a class of <code>container</code> or <code>container-fluid</code>, inside make another <coded>iv</coded> with a class of <code>row</code> </li>
+            <li>Next we can add some grid column divs inside the <code>row</code>. Add 3 sibling <code>div</code> tags, the 1st add the classes of <code>col-sm-4</code>, <code>col-md-6</code> &amp; col-md-offset-3</code>, 2nd div the classes of <code>col-sm-4</code> &amp; <code>col-md-8</code> and the 3rd div the classes of <code>col-sm-4</code> &amp; <code>col-md-12</code></li>
+            <li>Inside the 1st div add a <code>h1</code>, <code>p</code>, <code>button</code> &amp; <code>div</code> tag. Fill the <code>h1</code> and <code>p</code> tags with some dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a></li>
+            <li>In the second div add a <code>h2</code>, <code>p</code>, <code>button</code> &amp; a <code>div</code> tag. Again fill the <code>h2</code> &amp; <code>p</code> tags with more dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a></li> 
+            <li>Inside the third div add a <code>h3</code>, <code>p</code>, <code>button</code> &amp; 3 <code>div</code> tags. Again We should need dummy text from <a href="http://www.lipsum.com/" target="_blank">Lipsum</a> for the <code>h2</code> &amp; <code>p</code> tags</li>
+            <li>Great we have the basic content structure now we can add a few bootstrap classes to bring these to life! Inside the col-md-6 div lets give the button the classes of <code>btn</code>, <code>btn-success</code> &amp; <code>btn-block</code>, add content between the button tags e.x. "Alert Button"</li>
+            <li>To the 1st div inside our col-md-6 attach a class of <code>alert</code>, <code>alert-success</code> &amp; <code>fade</code>.  In the aler div add a <code>button</code> that we will dismiss the alert when clicked, <span class="text-primary">( We will write this at the end of this task )</span> and some content below the button this will be the alert message e.x. "&lt;strong&gt;Success! &lt;/strong&gt; Best check yo self, before your better then the rest!"</li>
+            <li>For this new button add a class of <code>close</code> and set the data-dismiss attribute to <code>alert</code></li>
+            <li>Inside the button add 2 <code>span</code> tags, to the first span add a <code>& times ;</code> between the opening and closing tags. This makes the closing X<br><span class="text-primary">We <strong>MUST</strong> remove the space between the <code>"&"</code> and <code>"t"</code> as well as between the <code>"s"</code> and <code>";"</code> to make the X properly appear --- We cant because it would just create the X and you wouldn't see the code you need!</span></li>
+            <li>To the second span add a class of <code>sr-only</code> and between the open and close tags add the text "Close". If we wanted this alert to work when we load the page we only need to add the class of <code>in</code> to the div with a class of <code>alert alert-success fade</code>.  For now leave it off we will make the button above display it in a minute.</li>
+            <li>Lets move into the <code>col-md-8</code> div below and give the button the classes <code>btn</code>, <code>btn-warning</code> &amp; <code>btn-lg</code> and some text between the tags "Click Here to Alert Us"</li>
+            <li>The div below the button needs some alert classes to make it wokr as an alert so add the classes <code>alert</code>, <code>alert-warning</code> &amp; <code>fade</code> and insert some text for the alert inside this div e.x. "&lt;strong&gt;Oh Snap It's a Warning&lt;/strong&gt; The end of the era is among us, or so they say, they are probably wrong anyway."</li>
+            <li>Finally into the last div with the class <code>col-md-12</code>, lets give the button a few bootstrap classes <code>btn</code>, <code>btn-danger</code> &amp; <code>btn-sm</code> and add some text between the button tags e.x. "DONT CLICK THIS".  For the div below the button give this a few alert classes <code>alert</code>, <code>alert-danger</code> &amp; <code>fade</code></li>
+            <li>Inside this alert div lets add some text e.x. "&lt;strong&gt;DANGER!&lt;/strong&gt; Watch your back, everyone is out to get you, get protection asap before it's to late." and a line break below the text <code>&lt;br&gt;</code>, and add 2 <code>a</code> tags below the line break tag</li>
+            <li>Add a few class to the anchors, give first the classes <code>btn</code> &amp; <code>btn-primary</code>, add some content between the tags e.x. "Action 1". On the second a add the classes of <code>btn</code> &amp; <code>btn-danger</code>, and again some content between the tags e.x "Action 2"</li>
+            <li>Nicely Done, lets make one more alert and then the little jQuery to display the alerts when we click the nearest button! start by adding a <code>div</code> tag with a class of <code>clearfix</code> below the <code>col-md-12</code> div and add another <code>div</code> tag below this clearfix div</li>
+            <li>Give this div a few alert classes like we did before <code>alert</code>, <code>alert-success</code> &amp; <code>fade</code> but this time we want this one always displayed so we need to give this div one more class of <code>in</code>. Next we need some alert message inside the alert div e.x. "Check out this sweet alert, its really important!"</li>
+            <li>OK, we have the alerts built but they still don't show up so lets make a quick jQuery script to fix this! In your main.js add these three lines of code 
             <code>
               <br>
-              $(".alert_button").on('click', function(){
+              $(".alert").on('click', function(){
               <br>
                 <span class="form_padding">$(this).closest("div").find(".alert").addClass("in");</span>
               <br>
               });
               <br>
             </code>
-          </div>
-          <p>Open this file in our browser to see what we just did!</p>
+            </li>
+            <li>After you add this script into your main.js file, you will just need to add the arbitary class of <code>btn-alert</code> to your buttons - to match this selector in this code</li>
+          </ol>
+          <p>Open this file in your browser to see what we just did!</p>
           <a href="answers/lesson8.php" target="_blank" class="text-danger">Ex: This is how your new file should look</a>
           <br><br>
           <p>Woohoo Alerts are super awesome good job getting through that task!</p>

@@ -21,81 +21,54 @@
     <![endif]-->
   </head>
   <body>   
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div id="myCarousel1" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel1" data-slide-to="1"></li>
-                  <li data-target="#myCarousel1" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="First slide">                      
-                    <div class="carousel-caption">
-                      <h3>Example headline.</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>   
-                      <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="Second slide">
-                    <div class="carousel-caption">
-                      <h3>Another example headline.</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                      <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="Third slide">
-                    <div class="carousel-caption">
-                      <h3>One more for good measure.</h3>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                      <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
-                    </div>
-                  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div id="myCarousel1" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel1" data-slide-to="1"></li>
+              <li data-target="#myCarousel1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="First slide">                      
+                <div class="carousel-caption">
+                  <h3>Example headline.</h3>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>   
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                </div>
+              </div>
+              <div class="item">
+                <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                  <h3>Another example headline.</h3>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                </div>
+              </div>
+              <div class="item">
+                <img src="http://albums.mouseplanet.com/guideicons/BCG103.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                  <h3>One more for good measure.</h3>
+                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
                 </div>
               </div>
             </div>
-            <div class="clearfix"></div>
-            <br>
-            <div class="col-md-12">
-              <img src="../img/answer11a.jpg" alt="Answer 11a">
-            </div>
-            <div class="clearfix"></div>
-            <br>
+            <a class="left carousel-control" href="#myCarousel1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
         </div>
-        <div class="container-fluid">
-          <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="item active">
-                <img src="../img/answer5.jpg" alt="First slide">
-              </div>
-              <div class="item">
-                <img src="../img/answer5.jpg" alt="Second slide">
-              </div>
-              <div class="item">
-                <img src="../img/answer5.jpg" alt="Third slide">
-              </div>
-              <div class="item">
-                <img src="../img/answer5.jpg" alt="Forth slide">
-              </div>
-              <div class="item">
-                <img src="../img/answer5.jpg" alt="Fifth slide">
-              </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel2" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a class="right carousel-control" href="#myCarousel2" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-          </div>
-        </div>
-        
         <div class="clearfix"></div>
         <br>
         <div class="col-md-12">
-          <img src="../img/answer11b.jpg"  alt="Answer 11b">
+          <img src="../img/answer11a.jpg" alt="Answer 11a">
         </div>
+        <div class="clearfix"></div>
+        <br>
+      </div>
+    </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="../js/jquery.js"></script>
