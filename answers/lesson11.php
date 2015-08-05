@@ -60,13 +60,15 @@
             <a class="right carousel-control" href="#myCarousel1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
           </div>
         </div>
-        <div class="clearfix"></div>
-        <br>
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer11a.jpg" alt="Answer 11a">
+          <img src="../img/answer11.jpg">
         </div>
-        <div class="clearfix"></div>
-        <br>
       </div>
     </div>
     

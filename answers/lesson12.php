@@ -69,7 +69,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer12a.jpg">
+          <img src="../img/answer12.jpg">
         </div>
       </div>
     </div>

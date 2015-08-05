@@ -122,9 +122,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer10a.jpg">
-          <br>
-          <img src="../img/answer10b.jpg">
+          <img src="../img/answer10.jpg">
         </div>
       </div>
     </div>

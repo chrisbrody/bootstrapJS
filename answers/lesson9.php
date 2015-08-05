@@ -56,38 +56,24 @@
       </div>
     </div>
 
+    <div class="clearfix"></div>
+
+    <hr>
+
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer9a.jpg">
-          <br>
-          <img src="../img/answer9b.jpg">
+          <img src="../img/answer9.jpg">
         </div>
       </div>
     </div> 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap Javascript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Our Added JS -->
     <script type="text/javascript" src="../js/scripts.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".btn_reveal").on('click', function(){
-          $(this).closest("div").find(".hidden").removeClass("hidden");
-        });
-        var btn = $('#loading_btn').click(function () {
-          btn.button('loading');
-
-          setTimeout(function () {
-              btn.button('reset')
-            }, 3000);
-          });
-        });
-    </script>
-
   </body>
 </html>
 

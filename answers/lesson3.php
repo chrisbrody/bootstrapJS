@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Codify Academy's Learning Bootstrap</title>
-    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="../favicon.ico">
     <meta charset="UTF-8">
     <meta name="description" content="Codify Academy's Bootstrap Learning">
     <meta name="keywords" content="Codify Academy, Learn Bootstrap, Twitter Bootstrap learning, HTML, CSS, Javascript">
@@ -34,6 +34,14 @@
         </ul>
       </div> 
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <img src="../img/answer3a.jpg">
+          </div>
+        </div>
+      </div>
+
       <nav class="navbar navbar-default">
         <div class="navbar-header">
           <button class="navbar-toggle" data-toggle="collapse" data-target=".collapsed_nav">
@@ -62,6 +70,14 @@
 
       <div class="container">
         <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <img src="../img/answer3b.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
           <div class="col-md-6">
             <div class="dropdown">
               <button class="btn btn-primary btn-block" data-toggle="dropdown">
@@ -81,19 +97,13 @@
       </div>
 
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="../img/answer3a.jpg">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <img src="../img/answer3c.jpg">
+            </div>
           </div>
-          <div class="col-md-8">
-            <img src="../img/answer3c.jpg">
-          </div>
-          <div class="col-md-12">
-            <img src="../img/answer3c.jpg">
-          </div>
-        </div>
-      </div> 
+        </div> 
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="../js/jquery.js"></script>

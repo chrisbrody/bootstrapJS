@@ -9,9 +9,9 @@
     <meta name="author" content="Chris Brody - Codify Academy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!--Our Added CSS-->
     <link rel="stylesheet" href="../css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -63,6 +63,14 @@
           <h1>First Bootstrap Modal</h1>
           <button class="btn btn-primary btn-block" data-target="#testModal1" data-toggle="modal"> Launch demo modal </button>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="../img/answer2a.jpg">
+            </div>
+          </div>
+        </div> 
+        <div class="clearfix"></div>
         <div class="col-md-6">
           <h3>Large Bootstrap Modal</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -74,16 +82,15 @@
    <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../img/answer2.jpg">
+          <img src="../img/answer2b.jpg">
         </div>
       </div>
     </div> 
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap Javascript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Our Added JS -->
     <script type="text/javascript" src="../js/scripts.js"></script>
 

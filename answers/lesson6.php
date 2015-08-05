@@ -14,17 +14,12 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!--Our Added CSS-->
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-      <script src="/js/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>   
 
     <div class="container">
       <button type="button" class="btn btn-default tooltips" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
-      <button type="button" class="btn btn-primary tooltips" data-toggle="tooltip" data-placement="left" data-trigger="focus" title="Tooltip on left">Tooltip on left</button>
+      <button type="button" class="btn btn-primary tooltips" data-toggle="tooltip" data-placement="right" data-trigger="focus" title="Tooltip on right">Tooltip on right</button>
       <div class="clearfix"></div>
       <br>
       <div class="btn-group">
@@ -40,6 +35,10 @@
       </div>
     </div>
 
+    <div class="clearfix"></div>
+
+    <hr>
+
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -49,17 +48,11 @@
     </div> 
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap Javascript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Our Added JS -->
     <script type="text/javascript" src="../js/scripts.js"></script>
-    <script type="text/javascript">
-      $('.tooltips').on('hidden.bs.tooltip', function () {
-        console.log("tooltip hidden");
-      });
-    </script>
 
   </body>
 </html>

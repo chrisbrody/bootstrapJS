@@ -67,26 +67,7 @@
         </div>
       </div>
 
-      <!-- Usage -->
-      <div class="col-md-12">
-        <h3>
-          Usage
-        </h3>
-        <p>
-          Enable tabbable tabs via JavaScript (each tab needs to be activated individually):
-        </p>
-        <div class="well well-sm">
-          <code>
-            <?php include('code/lesson5/usage_js.php'); ?>
-          </code>
-        </div>
-        <p>You can activate individual tabs in several ways:</p>
-        <div class="well well-sm">
-          <code>
-            <?php include('code/lesson5/usage_examples.php'); ?>
-          </code>
-        </div>
-      </div>
+      
 
       <!-- markup -->
       <div class="col-md-12">
