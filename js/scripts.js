@@ -58,6 +58,7 @@ $(document).ready(function(){
 		}
 	});
 
+
 });
 
 
@@ -116,3 +117,4 @@ $("[data-toggle='popover']").popover();
 $('.revealer').on('click', function(){
 	$('body').find('.reveal_answer').toggleClass('hidden');
 });
+
